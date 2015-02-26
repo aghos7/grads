@@ -1,0 +1,8 @@
+[
+    {
+            "name": "Programming Languages",
+            "id": "csci5106",
+            "numCredits": "3",
+            "courseArea": "ARCHITECTURE_SYSTEMS_SOFTWARE"
+    }
+]

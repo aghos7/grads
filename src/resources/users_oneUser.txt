@@ -1,0 +1,11 @@
+[
+    {
+        "user": {
+            "id": "gayxx067",
+            "firstName": "Gregory",
+            "lastName": "Gay"
+        },
+        "role": "STUDENT",
+        "department": "COMPUTER_SCIENCE"
+    }
+]

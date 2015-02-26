@@ -1,0 +1,156 @@
+[
+  {
+    "student": {
+      "id": "nguy0621",
+      "firstName": "Luan",
+      "lastName": "Nguyen"
+    },
+    "department": "COMPUTER_SCIENCE",
+    "degreeSought": "PHD",
+    "termBegan": {
+      "semester": "SPRING",
+      "year": 2008
+    },
+    "advisors": [
+      {
+        "department": "COMPUTER_SCIENCE",
+        "firstName": "William",
+        "lastName": "Schuler"
+      }
+    ],
+    "committee": [
+      {
+        "department": "COMPUTER_SCIENCE",
+        "firstName": "Maria",
+        "lastName": "Gini"
+      },
+      {
+        "department": "COMPUTER_SCIENCE",
+        "firstName": "Daniel",
+        "lastName": "Boley"
+      },
+      {
+        "department": "MATH",
+        "firstName": "Richard",
+        "lastName": "McGehee"
+      }
+    ],
+    "coursesTaken": [
+      {
+        "course": {
+          "name": "Advanced Algorithms and Data Structures",
+          "id": "csci5421",
+          "numCredits": "3"
+        },
+        "term": {
+          "semester": "SPRING",
+          "year": 2008
+        },
+        "grade": "A"
+      },
+      {
+        "course": {
+          "name": "Machine Learning",
+          "id": "csci5525",
+          "numCredits": "3"
+        },
+        "term": {
+          "semester": "SPRING",
+          "year": 2008
+        },
+        "grade": "B"
+      }
+    ],
+    "milestonesSet": [
+      {
+        "milestone": "DEFENSE_PASSED",
+        "term": {
+          "semester": "FALL",
+          "year": 2014
+        }
+      }
+    ],
+    "notes": [
+      "note1",
+      "note2"
+    ]
+  },
+  {
+    "student": {
+      "id": "chri3310",
+      "firstName": "Kyle",
+      "lastName": "Christianson"
+    },    
+    "department": "COMPUTER_SCIENCE",
+    "degreeSought": "MS_A",
+    "coursesTaken": [
+      {
+        "course": {
+          "name": "Computer Science Colloquium",
+          "id": "csci8970",
+          "numCredits": "1"
+        },
+        "term": {
+          "semester": "FALL",
+          "year": 2013
+        },
+        "grade": "S"
+      },
+      {
+        "course": {
+          "name": "Introduction to Distributed Systems",
+          "id": "csci5105",
+          "numCredits": "3"
+        },
+        "term": {
+          "semester": "SPRING",
+          "year": 2013
+        },
+        "grade": "_"
+      },
+            {
+        "course": {
+          "name": "User Interface Design, Implementation, and Evaluation",
+          "id": "csci5115",
+          "numCredits": "3"
+        },
+        "term": {
+          "semester": "SPRING",
+          "year": 2013
+        },
+        "grade": "_"
+      },
+            {
+        "course": {
+          "name": "Analysis of Numerical Algorithms",
+          "id": "csci5302",
+          "numCredits": "3"
+        },
+        "term": {
+          "semester": "SPRING",
+          "year": 2013
+        },
+        "grade": "_"
+      }
+    ]
+  },
+  {
+    "student": {
+      "id": "gayxx067",
+      "firstName": "Greg",
+      "lastName": "Gay"
+    },
+    "advisors": [
+      {
+        "department": "COMPUTER_SCIENCE",
+        "firstName": "Mats",
+        "lastName": "Heimdahl"
+      }
+    ],
+    "notes": [
+      "note1",
+      "note2",
+      "note3"
+    ]
+  }
+]

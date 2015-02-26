@@ -1,0 +1,37 @@
+[
+
+  {
+
+    "student": {
+
+      "id": "gayxx067",
+
+      "firstName": "Greg",
+
+      "lastName": "Gay"
+
+    },
+
+    "advisors": [
+
+      {
+
+        "department": "COMPUTER_SCIENCE",
+
+        "firstName": "Mats",
+
+        "lastName": "Heimdahl"
+
+      }
+
+    ],
+
+    "notes": [
+
+    "note1", "note2", "note3"
+
+    ]
+
+  }
+
+]

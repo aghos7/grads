@@ -1,0 +1,1277 @@
+[
+  {
+    "degree": "MS_A",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "DegreeRequirement",
+    "requirement": {
+      "requirementName": "DEGREE_SOUGHT"
+    }
+  },
+  {
+    "degree": "MS_A",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "CreditRequirement",
+    "requirement": {
+      "courseFilter": {
+        "filters": [
+          {
+            "filterType": "DuplicateFilter"
+          },
+          {
+            "validGrades": [
+              "A",
+              "_",
+              "S",
+              "C",
+              "B"
+            ],
+            "filterType": "GradeFilter"
+          }
+        ],
+        "filterType": "FilterSet"
+      },
+      "requiredCredits": 31,
+      "requirementName": "TOTAL_CREDITS"
+    }
+  },
+  {
+    "degree": "MS_A",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "CreditRequirement",
+    "requirement": {
+      "courseFilter": {
+        "filters": [
+          {
+            "filterType": "DuplicateFilter"
+          },
+          {
+            "courseRegex": "CSCI8888|CSCI8777",
+            "reverse": true,
+            "filterType": "CourseFilter"
+          },
+          {
+            "validGrades": [
+              "A",
+              "_",
+              "C",
+              "B"
+            ],
+            "filterType": "GradeFilter"
+          }
+        ],
+        "filterType": "FilterSet"
+      },
+      "requiredCredits": 22,
+      "requirementName": "COURSE_CREDITS"
+    }
+  },
+  {
+    "degree": "MS_A",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "CreditRequirement",
+    "requirement": {
+      "courseFilter": {
+        "filters": [
+          {
+            "filterType": "DuplicateFilter"
+          },
+          {
+            "courseRegex": "CSCI8888|CSCI8777",
+            "reverse": true,
+            "filterType": "CourseFilter"
+          },
+          {
+            "courseRegex": "^[a-zA-Z]{3,4}[5-9]\\d{3}$",
+            "reverse": false,
+            "filterType": "CourseFilter"
+          },
+          {
+            "courseRegex": "^CSCI\\d{4}$",
+            "reverse": false,
+            "filterType": "CourseFilter"
+          },
+          {
+            "validGrades": [
+              "A",
+              "_",
+              "C",
+              "B"
+            ],
+            "filterType": "GradeFilter"
+          }
+        ],
+        "filterType": "FilterSet"
+      },
+      "requiredCredits": 16,
+      "requirementName": "COURSE_CREDITS_IN_PROGRAM"
+    }
+  },
+  {
+    "degree": "MS_A",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "CourseRequirement",
+    "requirement": {
+      "courseFilter": {
+        "filters": [
+          {
+            "courseRegex": "CSCI8970",
+            "reverse": false,
+            "filterType": "CourseFilter"
+          },
+          {
+            "validGrades": [
+              "_",
+              "S"
+            ],
+            "filterType": "GradeFilter"
+          }
+        ],
+        "filterType": "FilterSet"
+      },
+      "requirementName": "COLLOQUIUM"
+    }
+  },
+  {
+    "degree": "MS_A",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "CreditRequirement",
+    "requirement": {
+      "courseFilter": {
+        "filters": [
+          {
+            "filterType": "DuplicateFilter"
+          },
+          {
+            "courseRegex": "CSCI8888|CSCI8777",
+            "reverse": true,
+            "filterType": "CourseFilter"
+          },
+          {
+            "courseRegex": "^[a-zA-Z]{3,4}[8-9]\\d{3}$",
+            "reverse": false,
+            "filterType": "CourseFilter"
+          },
+          {
+            "courseRegex": "^CSCI\\d{4}$",
+            "reverse": false,
+            "filterType": "CourseFilter"
+          },
+          {
+            "validGrades": [
+              "A",
+              "_",
+              "C",
+              "B"
+            ],
+            "filterType": "GradeFilter"
+          }
+        ],
+        "filterType": "FilterSet"
+      },
+      "requiredCredits": 3,
+      "requirementName": "PHD_LEVEL_COURSES"
+    }
+  },
+  {
+    "degree": "MS_A",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "CreditRequirement",
+    "requirement": {
+      "courseFilter": {
+        "courseRegex": "CSCI8777",
+        "reverse": false,
+        "filterType": "CourseFilter"
+      },
+      "requiredCredits": 10,
+      "requirementName": "THESIS_MS"
+    }
+  },
+  {
+    "degree": "MS_A",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "GpaRequirement",
+    "requirement": {
+      "courseFilter": {
+        "filters": [
+          {
+            "validGrades": [
+              "A",
+              "D",
+              "F",
+              "C",
+              "B"
+            ],
+            "filterType": "GradeFilter"
+          }
+        ],
+        "filterType": "FilterSet"
+      },
+      "requiredGpa": 3.25,
+      "requirementName": "OVERALL_GPA_MS"
+    }
+  },
+  {
+    "degree": "MS_A",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "GpaRequirement",
+    "requirement": {
+      "courseFilter": {
+        "filters": [
+          {
+            "courseRegex": "^[a-zA-Z]{3,4}[5-9]\\d{3}$",
+            "reverse": false,
+            "filterType": "CourseFilter"
+          },
+          {
+            "courseRegex": "^CSCI\\d{4}$",
+            "reverse": false,
+            "filterType": "CourseFilter"
+          },
+          {
+            "validGrades": [
+              "A",
+              "D",
+              "F",
+              "C",
+              "B"
+            ],
+            "filterType": "GradeFilter"
+          }
+        ],
+        "filterType": "FilterSet"
+      },
+      "requiredGpa": 3.25,
+      "requirementName": "IN_PROGRAM_GPA_MS"
+    }
+  },
+  {
+    "degree": "MS_A",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "MilestoneRequirement",
+    "requirement": {
+      "requiredMilestone": "DPF_SUBMITTED",
+      "requirementName": "DPF_SUBMITTED"
+    }
+  },
+  {
+    "degree": "MS_A",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "MilestoneRequirement",
+    "requirement": {
+      "requiredMilestone": "DPF_APPROVED",
+      "requirementName": "DPF_APPROVED"
+    }
+  },
+  {
+    "degree": "MS_A",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "MilestoneRequirement",
+    "requirement": {
+      "requiredMilestone": "THESIS_COMMITTEE_APPOINTED",
+      "requirementName": "THESIS_COMMITTEE_APPOINTED"
+    }
+  },
+  {
+    "degree": "MS_A",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "MilestoneRequirement",
+    "requirement": {
+      "requiredMilestone": "GRADUATION_PACKET_REQUESTED",
+      "requirementName": "GRADUATION_PACKET_REQUESTED"
+    }
+  },
+  {
+    "degree": "MS_A",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "MilestoneRequirement",
+    "requirement": {
+      "requiredMilestone": "THESIS_SUBMITTED",
+      "requirementName": "THESIS_SUBMITTED"
+    }
+  },
+  {
+    "degree": "MS_A",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "MilestoneRequirement",
+    "requirement": {
+      "requiredMilestone": "THESIS_APPROVED",
+      "requirementName": "THESIS_APPROVED"
+    }
+  },
+  {
+    "degree": "MS_A",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "MilestoneRequirement",
+    "requirement": {
+      "requiredMilestone": "DEFENSE_PASSED",
+      "requirementName": "DEFENSE_PASSED"
+    }
+  },
+  {
+    "degree": "MS_A",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "BreadthRequirement",
+    "requirement": {
+      "requiredCoursesPerArea": {
+        "THEORY_ALGORITHMS": 1,
+        "APPLICATIONS": 1,
+        "ARCHITECTURE_SYSTEMS_SOFTWARE": 1
+      },
+      "requiredCoursesTotal": 3,
+      "requiredGpa": 3.25,
+      "requirementName": "BREADTH_REQUIREMENT_MS"
+    }
+  },
+  {
+    "degree": "MS_B",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "DegreeRequirement",
+    "requirement": {
+      "requirementName": "DEGREE_SOUGHT"
+    }
+  },
+  {
+    "degree": "MS_B",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "CreditRequirement",
+    "requirement": {
+      "courseFilter": {
+        "filters": [
+          {
+            "filterType": "DuplicateFilter"
+          },
+          {
+            "courseRegex": "CSCI8888|CSCI8777",
+            "reverse": true,
+            "filterType": "CourseFilter"
+          },
+          {
+            "validGrades": [
+              "A",
+              "_",
+              "S",
+              "C",
+              "B"
+            ],
+            "filterType": "GradeFilter"
+          }
+        ],
+        "filterType": "FilterSet"
+      },
+      "requiredCredits": 31,
+      "requirementName": "TOTAL_CREDITS"
+    }
+  },
+  {
+    "degree": "MS_B",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "CreditRequirement",
+    "requirement": {
+      "courseFilter": {
+        "filters": [
+          {
+            "filterType": "DuplicateFilter"
+          },
+          {
+            "courseRegex": "CSCI8888|CSCI8777",
+            "reverse": true,
+            "filterType": "CourseFilter"
+          },
+          {
+            "courseRegex": "^[a-zA-Z]{3,4}[5-9]\\d{3}$",
+            "reverse": false,
+            "filterType": "CourseFilter"
+          },
+          {
+            "courseRegex": "^CSCI\\d{4}$",
+            "reverse": false,
+            "filterType": "CourseFilter"
+          },
+          {
+            "validGrades": [
+              "A",
+              "_",
+              "C",
+              "B"
+            ],
+            "filterType": "GradeFilter"
+          }
+        ],
+        "filterType": "FilterSet"
+      },
+      "requiredCredits": 16,
+      "requirementName": "GRADUATE_CREDITS"
+    }
+  },
+  {
+    "degree": "MS_B",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "CreditRequirement",
+    "requirement": {
+      "courseFilter": {
+        "filters": [
+          {
+            "filterType": "DuplicateFilter"
+          },
+          {
+            "courseRegex": "CSCI8888|CSCI8777",
+            "reverse": true,
+            "filterType": "CourseFilter"
+          },
+          {
+            "courseRegex": "^[a-zA-Z]{3,4}[8-9]\\d{3}$",
+            "reverse": false,
+            "filterType": "CourseFilter"
+          },
+          {
+            "courseRegex": "^CSCI\\d{4}$",
+            "reverse": false,
+            "filterType": "CourseFilter"
+          },
+          {
+            "validGrades": [
+              "A",
+              "_",
+              "C",
+              "B"
+            ],
+            "filterType": "GradeFilter"
+          }
+        ],
+        "filterType": "FilterSet"
+      },
+      "requiredCredits": 3,
+      "requirementName": "PHD_LEVEL_COURSES"
+    }
+  },
+  {
+    "degree": "MS_B",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "CourseRequirement",
+    "requirement": {
+      "courseFilter": {
+        "filters": [
+          {
+            "courseRegex": "CSCI8760",
+            "reverse": false,
+            "filterType": "CourseFilter"
+          },
+          {
+            "validGrades": [
+              "_",
+              "S"
+            ],
+            "filterType": "GradeFilter"
+          }
+        ],
+        "filterType": "FilterSet"
+      },
+      "requirementName": "PLAN_B_PROJECT"
+    }
+  },
+  {
+    "degree": "MS_B",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "CourseRequirement",
+    "requirement": {
+      "courseFilter": {
+        "filters": [
+          {
+            "courseRegex": "CSCI8970",
+            "reverse": false,
+            "filterType": "CourseFilter"
+          },
+          {
+            "validGrades": [
+              "_",
+              "S"
+            ],
+            "filterType": "GradeFilter"
+          }
+        ],
+        "filterType": "FilterSet"
+      },
+      "requirementName": "COLLOQUIUM"
+    }
+  },
+  {
+    "degree": "MS_B",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "GpaRequirement",
+    "requirement": {
+      "courseFilter": {
+        "filters": [
+          {
+            "validGrades": [
+              "A",
+              "D",
+              "F",
+              "C",
+              "B"
+            ],
+            "filterType": "GradeFilter"
+          }
+        ],
+        "filterType": "FilterSet"
+      },
+      "requiredGpa": 3.25,
+      "requirementName": "OVERALL_GPA_MS"
+    }
+  },
+  {
+    "degree": "MS_B",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "GpaRequirement",
+    "requirement": {
+      "courseFilter": {
+        "filters": [
+          {
+            "courseRegex": "^[a-zA-Z]{3,4}[5-9]\\d{3}$",
+            "reverse": false,
+            "filterType": "CourseFilter"
+          },
+          {
+            "courseRegex": "^CSCI\\d{4}$",
+            "reverse": false,
+            "filterType": "CourseFilter"
+          },
+          {
+            "validGrades": [
+              "A",
+              "D",
+              "F",
+              "C",
+              "B"
+            ],
+            "filterType": "GradeFilter"
+          }
+        ],
+        "filterType": "FilterSet"
+      },
+      "requiredGpa": 3.25,
+      "requirementName": "IN_PROGRAM_GPA_MS"
+    }
+  },
+  {
+    "degree": "MS_B",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "MilestoneRequirement",
+    "requirement": {
+      "requiredMilestone": "DPF_SUBMITTED",
+      "requirementName": "DPF_SUBMITTED"
+    }
+  },
+  {
+    "degree": "MS_B",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "MilestoneRequirement",
+    "requirement": {
+      "requiredMilestone": "DPF_APPROVED",
+      "requirementName": "DPF_APPROVED"
+    }
+  },
+  {
+    "degree": "MS_B",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "MilestoneRequirement",
+    "requirement": {
+      "requiredMilestone": "PROJECT_COMMITTEE_APPOINTED",
+      "requirementName": "PROJECT_COMMITTEE_APPOINTED"
+    }
+  },
+  {
+    "degree": "MS_B",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "MilestoneRequirement",
+    "requirement": {
+      "requiredMilestone": "GRADUATION_PACKET_REQUESTED",
+      "requirementName": "GRADUATION_PACKET_REQUESTED"
+    }
+  },
+  {
+    "degree": "MS_B",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "MilestoneRequirement",
+    "requirement": {
+      "requiredMilestone": "DEFENSE_PASSED",
+      "requirementName": "DEFENSE_PASSED"
+    }
+  },
+  {
+    "degree": "MS_B",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "BreadthRequirement",
+    "requirement": {
+      "requiredCoursesPerArea": {
+        "THEORY_ALGORITHMS": 1,
+        "APPLICATIONS": 1,
+        "ARCHITECTURE_SYSTEMS_SOFTWARE": 1
+      },
+      "requiredCoursesTotal": 3,
+      "requiredGpa": 3.25,
+      "requirementName": "BREADTH_REQUIREMENT_MS"
+    }
+  },
+  {
+    "degree": "MS_C",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "DegreeRequirement",
+    "requirement": {
+      "requirementName": "DEGREE_SOUGHT"
+    }
+  },
+  {
+    "degree": "MS_C",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "CreditRequirement",
+    "requirement": {
+      "courseFilter": {
+        "filters": [
+          {
+            "filterType": "DuplicateFilter"
+          },
+          {
+            "courseRegex": "CSCI8888|CSCI8777",
+            "reverse": true,
+            "filterType": "CourseFilter"
+          },
+          {
+            "validGrades": [
+              "A",
+              "_",
+              "S",
+              "C",
+              "B"
+            ],
+            "filterType": "GradeFilter"
+          }
+        ],
+        "filterType": "FilterSet"
+      },
+      "requiredCredits": 31,
+      "requirementName": "TOTAL_CREDITS"
+    }
+  },
+  {
+    "degree": "MS_C",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "CreditRequirement",
+    "requirement": {
+      "courseFilter": {
+        "filters": [
+          {
+            "filterType": "DuplicateFilter"
+          },
+          {
+            "courseRegex": "CSCI8888|CSCI8777",
+            "reverse": true,
+            "filterType": "CourseFilter"
+          },
+          {
+            "courseRegex": "^[a-zA-Z]{3,4}[5-9]\\d{3}$",
+            "reverse": false,
+            "filterType": "CourseFilter"
+          },
+          {
+            "courseRegex": "^CSCI\\d{4}$",
+            "reverse": false,
+            "filterType": "CourseFilter"
+          },
+          {
+            "validGrades": [
+              "A",
+              "_",
+              "C",
+              "B"
+            ],
+            "filterType": "GradeFilter"
+          }
+        ],
+        "filterType": "FilterSet"
+      },
+      "requiredCredits": 16,
+      "requirementName": "GRADUATE_CREDITS"
+    }
+  },
+  {
+    "degree": "MS_C",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "CreditRequirement",
+    "requirement": {
+      "courseFilter": {
+        "filters": [
+          {
+            "filterType": "DuplicateFilter"
+          },
+          {
+            "courseRegex": "CSCI8888|CSCI8777",
+            "reverse": true,
+            "filterType": "CourseFilter"
+          },
+          {
+            "courseRegex": "^[a-zA-Z]{3,4}[8-9]\\d{3}$",
+            "reverse": false,
+            "filterType": "CourseFilter"
+          },
+          {
+            "courseRegex": "^CSCI\\d{4}$",
+            "reverse": false,
+            "filterType": "CourseFilter"
+          },
+          {
+            "validGrades": [
+              "A",
+              "_",
+              "C",
+              "B"
+            ],
+            "filterType": "GradeFilter"
+          }
+        ],
+        "filterType": "FilterSet"
+      },
+      "requiredCredits": 6,
+      "requirementName": "PHD_LEVEL_COURSES_PLANC"
+    }
+  },
+  {
+    "degree": "MS_C",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "CourseRequirement",
+    "requirement": {
+      "courseFilter": {
+        "filters": [
+          {
+            "courseRegex": "CSCI8970",
+            "reverse": false,
+            "filterType": "CourseFilter"
+          },
+          {
+            "validGrades": [
+              "_",
+              "S"
+            ],
+            "filterType": "GradeFilter"
+          }
+        ],
+        "filterType": "FilterSet"
+      },
+      "requirementName": "COLLOQUIUM"
+    }
+  },
+  {
+    "degree": "MS_C",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "GpaRequirement",
+    "requirement": {
+      "courseFilter": {
+        "filters": [
+          {
+            "validGrades": [
+              "A",
+              "D",
+              "F",
+              "C",
+              "B"
+            ],
+            "filterType": "GradeFilter"
+          }
+        ],
+        "filterType": "FilterSet"
+      },
+      "requiredGpa": 3.25,
+      "requirementName": "OVERALL_GPA_MS"
+    }
+  },
+  {
+    "degree": "MS_C",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "GpaRequirement",
+    "requirement": {
+      "courseFilter": {
+        "filters": [
+          {
+            "courseRegex": "^[a-zA-Z]{3,4}[5-9]\\d{3}$",
+            "reverse": false,
+            "filterType": "CourseFilter"
+          },
+          {
+            "courseRegex": "^CSCI\\d{4}$",
+            "reverse": false,
+            "filterType": "CourseFilter"
+          },
+          {
+            "validGrades": [
+              "A",
+              "D",
+              "F",
+              "C",
+              "B"
+            ],
+            "filterType": "GradeFilter"
+          }
+        ],
+        "filterType": "FilterSet"
+      },
+      "requiredGpa": 3.25,
+      "requirementName": "IN_PROGRAM_GPA_MS"
+    }
+  },
+  {
+    "degree": "MS_C",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "MilestoneRequirement",
+    "requirement": {
+      "requiredMilestone": "DPF_SUBMITTED",
+      "requirementName": "DPF_SUBMITTED"
+    }
+  },
+  {
+    "degree": "MS_C",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "MilestoneRequirement",
+    "requirement": {
+      "requiredMilestone": "DPF_APPROVED",
+      "requirementName": "DPF_APPROVED"
+    }
+  },
+  {
+    "degree": "MS_C",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "MilestoneRequirement",
+    "requirement": {
+      "requiredMilestone": "TRACKING_FORM_SUBMITTED",
+      "requirementName": "TRACKING_FORM_SUBMITTED"
+    }
+  },
+  {
+    "degree": "MS_C",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "MilestoneRequirement",
+    "requirement": {
+      "requiredMilestone": "TRACKING_FORM_APPROVED",
+      "requirementName": "TRACKING_FORM_APPROVED"
+    }
+  },
+  {
+    "degree": "MS_C",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "MilestoneRequirement",
+    "requirement": {
+      "requiredMilestone": "GRADUATION_PACKET_REQUESTED",
+      "requirementName": "GRADUATION_PACKET_REQUESTED"
+    }
+  },
+  {
+    "degree": "MS_C",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "BreadthRequirement",
+    "requirement": {
+      "requiredCoursesPerArea": {
+        "THEORY_ALGORITHMS": 1,
+        "APPLICATIONS": 1,
+        "ARCHITECTURE_SYSTEMS_SOFTWARE": 1
+      },
+      "requiredCoursesTotal": 3,
+      "requiredGpa": 3.25,
+      "requirementName": "BREADTH_REQUIREMENT_MS"
+    }
+  },
+  {
+    "degree": "PHD",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "DegreeRequirement",
+    "requirement": {
+      "requirementName": "DEGREE_SOUGHT"
+    }
+  },
+  {
+    "degree": "PHD",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "CreditRequirement",
+    "requirement": {
+      "courseFilter": {
+        "filters": [
+          {
+            "filterType": "DuplicateFilter"
+          },
+          {
+            "courseRegex": "CSCI8888|CSCI8777",
+            "reverse": true,
+            "filterType": "CourseFilter"
+          },
+          {
+            "validGrades": [
+              "A",
+              "_",
+              "S",
+              "C",
+              "B"
+            ],
+            "filterType": "GradeFilter"
+          }
+        ],
+        "filterType": "FilterSet"
+      },
+      "requiredCredits": 31,
+      "requirementName": "TOTAL_CREDITS"
+    }
+  },
+  {
+    "degree": "PHD",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "CreditRequirement",
+    "requirement": {
+      "courseFilter": {
+        "filters": [
+          {
+            "filterType": "DuplicateFilter"
+          },
+          {
+            "courseRegex": "CSCI8888|CSCI8777",
+            "reverse": true,
+            "filterType": "CourseFilter"
+          },
+          {
+            "courseRegex": "^[a-zA-Z]{3,4}[5-9]\\d{3}$",
+            "reverse": false,
+            "filterType": "CourseFilter"
+          },
+          {
+            "courseRegex": "^CSCI\\d{4}$",
+            "reverse": false,
+            "filterType": "CourseFilter"
+          },
+          {
+            "validGrades": [
+              "A",
+              "_",
+              "C",
+              "B"
+            ],
+            "filterType": "GradeFilter"
+          }
+        ],
+        "filterType": "FilterSet"
+      },
+      "requiredCredits": 16,
+      "requirementName": "GRADUATE_CREDITS"
+    }
+  },
+  {
+    "degree": "PHD",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "CreditRequirement",
+    "requirement": {
+      "courseFilter": {
+        "filters": [
+          {
+            "filterType": "DuplicateFilter"
+          },
+          {
+            "courseRegex": "CSCI8888|CSCI8777",
+            "reverse": true,
+            "filterType": "CourseFilter"
+          },
+          {
+            "courseRegex": "^[a-zA-Z]{3,4}[5-9]\\d{3}$",
+            "reverse": false,
+            "filterType": "CourseFilter"
+          },
+          {
+            "courseRegex": "^CSCI\\d{4}$",
+            "reverse": true,
+            "filterType": "CourseFilter"
+          },
+          {
+            "validGrades": [
+              "A",
+              "_",
+              "S",
+              "C",
+              "B"
+            ],
+            "filterType": "GradeFilter"
+          }
+        ],
+        "filterType": "FilterSet"
+      },
+      "requiredCredits": 6,
+      "requirementName": "OUT_OF_DEPARTMENT"
+    }
+  },
+  {
+    "degree": "PHD",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "CreditRequirement",
+    "requirement": {
+      "courseFilter": {
+        "courseRegex": "CSCI8888",
+        "reverse": false,
+        "filterType": "CourseFilter"
+      },
+      "requiredCredits": 24,
+      "requirementName": "THESIS_PHD"
+    }
+  },
+  {
+    "degree": "PHD",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "CourseRequirement",
+    "requirement": {
+      "courseFilter": {
+        "filters": [
+          {
+            "courseRegex": "CSCI8970",
+            "reverse": false,
+            "filterType": "CourseFilter"
+          },
+          {
+            "validGrades": [
+              "_",
+              "S"
+            ],
+            "filterType": "GradeFilter"
+          }
+        ],
+        "filterType": "FilterSet"
+      },
+      "requirementName": "COLLOQUIUM"
+    }
+  },
+  {
+    "degree": "PHD",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "CourseRequirement",
+    "requirement": {
+      "courseFilter": {
+        "filters": [
+          {
+            "courseRegex": "CSCI8001",
+            "reverse": false,
+            "filterType": "CourseFilter"
+          },
+          {
+            "validGrades": [
+              "A",
+              "_",
+              "C",
+              "B"
+            ],
+            "filterType": "GradeFilter"
+          }
+        ],
+        "filterType": "FilterSet"
+      },
+      "requirementName": "INTRO_TO_RESEARCH"
+    }
+  },
+  {
+    "degree": "PHD",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "CourseRequirement",
+    "requirement": {
+      "courseFilter": {
+        "filters": [
+          {
+            "courseRegex": "CSCI8002",
+            "reverse": false,
+            "filterType": "CourseFilter"
+          },
+          {
+            "validGrades": [
+              "A",
+              "_",
+              "C",
+              "B"
+            ],
+            "filterType": "GradeFilter"
+          }
+        ],
+        "filterType": "FilterSet"
+      },
+      "requirementName": "INTRO_TO_RESEARCH2"
+    }
+  },
+  {
+    "degree": "PHD",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "GpaRequirement",
+    "requirement": {
+      "courseFilter": {
+        "filters": [
+          {
+            "validGrades": [
+              "A",
+              "D",
+              "F",
+              "C",
+              "B"
+            ],
+            "filterType": "GradeFilter"
+          }
+        ],
+        "filterType": "FilterSet"
+      },
+      "requiredGpa": 3.45,
+      "requirementName": "OVERALL_GPA_PHD"
+    }
+  },
+  {
+    "degree": "PHD",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "GpaRequirement",
+    "requirement": {
+      "courseFilter": {
+        "filters": [
+          {
+            "courseRegex": "^[a-zA-Z]{3,4}[5-9]\\d{3}$",
+            "reverse": false,
+            "filterType": "CourseFilter"
+          },
+          {
+            "courseRegex": "^CSCI\\d{4}$",
+            "reverse": false,
+            "filterType": "CourseFilter"
+          },
+          {
+            "validGrades": [
+              "A",
+              "D",
+              "F",
+              "C",
+              "B"
+            ],
+            "filterType": "GradeFilter"
+          }
+        ],
+        "filterType": "FilterSet"
+      },
+      "requiredGpa": 3.45,
+      "requirementName": "IN_PROGRAM_GPA_PHD"
+    }
+  },
+  {
+    "degree": "PHD",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "MilestoneRequirement",
+    "requirement": {
+      "requiredMilestone": "PRELIM_COMMITTEE_APPOINTED",
+      "requirementName": "PRELIM_COMMITTEE_APPOINTED"
+    }
+  },
+  {
+    "degree": "PHD",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "MilestoneRequirement",
+    "requirement": {
+      "requiredMilestone": "WRITTEN_PE_SUBMITTED",
+      "requirementName": "WRITTEN_PE_SUBMITTED"
+    }
+  },
+  {
+    "degree": "PHD",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "MilestoneRequirement",
+    "requirement": {
+      "requiredMilestone": "WRITTEN_PE_APPROVED",
+      "requirementName": "WRITTEN_PE_APPROVED"
+    }
+  },
+  {
+    "degree": "PHD",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "MilestoneRequirement",
+    "requirement": {
+      "requiredMilestone": "ORAL_PE_PASSED",
+      "requirementName": "ORAL_PE_PASSED"
+    }
+  },
+  {
+    "degree": "PHD",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "MilestoneRequirement",
+    "requirement": {
+      "requiredMilestone": "DPF_SUBMITTED",
+      "requirementName": "DPF_SUBMITTED"
+    }
+  },
+  {
+    "degree": "PHD",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "MilestoneRequirement",
+    "requirement": {
+      "requiredMilestone": "DPF_APPROVED",
+      "requirementName": "DPF_APPROVED"
+    }
+  },
+  {
+    "degree": "PHD",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "MilestoneRequirement",
+    "requirement": {
+      "requiredMilestone": "THESIS_COMMITTEE_APPOINTED",
+      "requirementName": "THESIS_COMMITTEE_APPOINTED"
+    }
+  },
+  {
+    "degree": "PHD",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "MilestoneRequirement",
+    "requirement": {
+      "requiredMilestone": "PROPOSAL_PASSED",
+      "requirementName": "PROPOSAL_PASSED"
+    }
+  },
+  {
+    "degree": "PHD",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "MilestoneRequirement",
+    "requirement": {
+      "requiredMilestone": "THESIS_SUBMITTED",
+      "requirementName": "THESIS_SUBMITTED"
+    }
+  },
+  {
+    "degree": "PHD",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "MilestoneRequirement",
+    "requirement": {
+      "requiredMilestone": "THESIS_APPROVED",
+      "requirementName": "THESIS_APPROVED"
+    }
+  },
+  {
+    "degree": "PHD",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "MilestoneRequirement",
+    "requirement": {
+      "requiredMilestone": "DEFENSE_PASSED",
+      "requirementName": "DEFENSE_PASSED"
+    }
+  },
+  {
+    "degree": "PHD",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "MilestoneRequirement",
+    "requirement": {
+      "requiredMilestone": "GRADUATION_PACKET_REQUESTED",
+      "requirementName": "GRADUATION_PACKET_REQUESTED"
+    }
+  },
+  {
+    "degree": "PHD",
+    "department": "COMPUTER_SCIENCE",
+    "requirementType": "BreadthRequirement",
+    "requirement": {
+      "requiredCoursesPerArea": {
+        "THEORY_ALGORITHMS": 1,
+        "APPLICATIONS": 1,
+        "ARCHITECTURE_SYSTEMS_SOFTWARE": 1
+      },
+      "requiredCoursesTotal": 5,
+      "requiredGpa": 3.45,
+      "requirementName": "BREADTH_REQUIREMENT_PHD"
+    }
+  }
+]

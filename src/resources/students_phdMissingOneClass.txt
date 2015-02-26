@@ -1,0 +1,328 @@
+[
+  {
+    "student": {
+      "id": "pocha006",
+      "firstName": "Saritha",
+      "lastName": "Pochampally"
+    },
+    "department": "COMPUTER_SCIENCE",
+    "degreeSought": "PHD",
+    "termBegan": {
+      "semester": "FALL",
+      "year": 2010
+    },
+    "advisors": [
+      {
+        "department": "COMPUTER_SCIENCE",
+        "firstName": "mat",
+        "lastName": "heimdahl"
+      },
+      {
+        "department": "COMPUTER_SCIENCE",
+        "firstName": "nic",
+        "lastName": "Hopper"
+      }
+    ],
+    "committee": [
+      {
+        "department": "COMPUTER_SCIENCE",
+        "firstName": "mat",
+        "lastName": "heimdahl"
+      },
+      {
+        "department": "COMPUTER_SCIENCE",
+        "firstName": "nic",
+        "lastName": "Hopper"
+      }
+    ],
+    "coursesTaken": [
+      {
+        "course": {
+          "name": "Operating Systems",
+          "id": "csci5103",
+          "numCredits": "3",
+          "courseArea": "ARCHITECTURE_SYSTEMS_SOFTWARE"
+        },
+        "term": {
+          "semester": "SPRING",
+          "year": 2010
+        },
+        "grade": "A"
+      },
+      {
+        "course": {
+          "name": "Thesis Credit: Doctoral",
+          "id": "csci8888",
+          "numCredits": "24"
+        },
+        "term": {
+          "semester": "SPRING",
+          "year": 2010
+        },
+        "grade": "S"
+      },
+      {
+        "course": {
+          "name": "Computer Science Colloquium",
+          "id": "csci8970",
+          "numCredits": "1"
+        },
+        "term": {
+          "semester": "SPRING",
+          "year": 2010
+        },
+        "grade": "S"
+      },
+      {
+        "course": {
+          "name": "Algebra",
+          "id": "math5000",
+          "numCredits": "3"
+        },
+        "term": {
+          "semester": "SPRING",
+          "year": 2010
+        },
+        "grade": "S"
+      },
+      {
+        "course": {
+          "name": "Geometry",
+          "id": "math6000",
+          "numCredits": "3"
+        },
+        "term": {
+          "semester": "SPRING",
+          "year": 2010
+        },
+        "grade": "S"
+      },
+      {
+        "course": {
+          "name": "Introduction to Research in Computer Science I",
+          "id": "csci8001",
+          "numCredits": "1"
+        },
+        "term": {
+          "semester": "SPRING",
+          "year": 2010
+        },
+        "grade": "B"
+      },
+      {
+        "course": {
+          "name": "Introduction to Research in Computer Science II",
+          "id": "csci8002",
+          "numCredits": "2"
+        },
+        "term": {
+          "semester": "SPRING",
+          "year": 2010
+        },
+        "grade": "B"
+      },
+      {
+        "course": {
+          "name": "Sensing and Estimation in Robotics",
+          "id": "csci5552",
+          "numCredits": "3"
+        },
+        "term": {
+          "semester": "SPRING",
+          "year": 2010
+        },
+        "grade": "B"
+      },
+      {
+        "course": {
+          "name": "Advanced Internet Programming",
+          "id": "csci5131",
+          "numCredits": "3"
+        },
+        "term": {
+          "semester": "SPRING",
+          "year": 2010
+        },
+        "grade": "B"
+      },
+      {
+        "course": {
+          "name": "e-Public Health: Online Intervention Design",
+          "id": "csci5129",
+          "numCredits": "3"
+        },
+        "term": {
+          "semester": "SPRING",
+          "year": 2010
+        },
+        "grade": "B"
+      },
+      {
+        "course": {
+          "name": "Computational Techniques for Genomics",
+          "id": "csci5481",
+          "numCredits": "3",
+          "courseArea": "APPLICATIONS"
+        },
+        "term": {
+          "semester": "SPRING",
+          "year": 2010
+        },
+        "grade": "B"
+      },
+      {
+        "course": {
+          "name": "Data Communications and Computer Networks",
+          "id": "csci5211",
+          "numCredits": "3",
+          "courseArea": "ARCHITECTURE_SYSTEMS_SOFTWARE"
+        },
+        "term": {
+          "semester": "SPRING",
+          "year": 2010
+        },
+        "grade": "A"
+      },
+      {
+        "course": {
+          "name": "Functional Genomics, Systems Biology, and Bioinformatics",
+          "id": "csci5461",
+          "numCredits": "3",
+          "courseArea": "ARCHITECTURE_SYSTEMS_SOFTWARE"
+        },
+        "term": {
+          "semester": "SPRING",
+          "year": 2010
+        },
+        "grade": "A"
+      },
+      {
+        "course": {
+          "name": "Thesis Credit: Doctoral",
+          "id": "csci8888",
+          "numCredits": "24"
+        },
+        "term": {
+          "semester": "SPRING",
+          "year": 2010
+        },
+        "grade": "S"
+      },
+      {
+        "course": {
+          "name": "Thesis Credit: Doctoral",
+          "id": "csci8888",
+          "numCredits": "24"
+        },
+        "term": {
+          "semester": "SPRING",
+          "year": 2010
+        },
+        "grade": "S"
+      },
+      {
+        "course": {
+          "name": "Thesis Credit: Doctoral",
+          "id": "csci8888",
+          "numCredits": "24"
+        },
+        "term": {
+          "semester": "SPRING",
+          "year": 2010
+        },
+        "grade": "S"
+      }
+    ],
+    "milestonesSet": [
+      {
+        "milestone": "PRELIM_COMMITTEE_APPOINTED",
+        "term": {
+          "semester": "SPRING",
+          "year": 2010
+        }
+      },
+      {
+        "milestone": "WRITTEN_PE_SUBMITTED",
+        "term": {
+          "semester": "SPRING",
+          "year": 2010
+        }
+      },
+      {
+        "milestone": "WRITTEN_PE_APPROVED",
+        "term": {
+          "semester": "SPRING",
+          "year": 2010
+        }
+      },
+      {
+        "milestone": "ORAL_PE_PASSED",
+        "term": {
+          "semester": "SPRING",
+          "year": 2010
+        }
+      },
+      {
+        "milestone": "DPF_SUBMITTED",
+        "term": {
+          "semester": "SPRING",
+          "year": 2010
+        }
+      },
+      {
+        "milestone": "DPF_APPROVED",
+        "term": {
+          "semester": "SPRING",
+          "year": 2010
+        }
+      },
+      {
+        "milestone": "THESIS_COMMITTEE_APPOINTED",
+        "term": {
+          "semester": "SPRING",
+          "year": 2010
+        }
+      },
+      {
+        "milestone": "PROPOSAL_PASSED",
+        "term": {
+          "semester": "SPRING",
+          "year": 2010
+        }
+      },
+      {
+        "milestone": "GRADUATION_PACKET_REQUESTED",
+        "term": {
+          "semester": "SPRING",
+          "year": 2010
+        }
+      },
+      {
+        "milestone": "THESIS_SUBMITTED",
+        "term": {
+          "semester": "SPRING",
+          "year": 2010
+        }
+      },
+      {
+        "milestone": "THESIS_APPROVED",
+        "term": {
+          "semester": "SPRING",
+          "year": 2010
+        }
+      },
+      {
+        "milestone": "DEFENSE_PASSED",
+        "term": {
+          "semester": "SPRING",
+          "year": 2010
+        }
+      }
+    ],
+    "notes": [
+      "note1",
+      "note2",
+      "note3"
+    ]
+  }
+]

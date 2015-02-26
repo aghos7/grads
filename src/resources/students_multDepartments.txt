@@ -1,0 +1,45 @@
+[
+  {
+    "student": {
+      "id": "nguy0621",
+      "firstName": "Luan",
+      "lastName": "Nguyen"
+    },
+    "department": "COMPUTER_SCIENCE",
+    "degreeSought": "PHD"
+  },
+  {
+    "student": {
+      "id": "gayxx067",
+      "firstName": "Greg",
+      "lastName": "Gay"
+    },
+    "department": "COMPUTER_SCIENCE",
+    "degreeSought": "PHD"
+  },
+  {
+    "student": {
+      "id": "student1",
+      "firstName": "student1",
+      "lastName": ""
+    },
+    "department": "MATH",
+    "degreeSought": "MS_A"
+  },
+  {
+    "student": {
+      "id": "student2",
+      "firstName": "student2",
+      "lastName": ""
+    }
+  },
+  {
+    "student": {
+      "id": "student3",
+      "firstName": "student3",
+      "lastName": ""
+    },
+    "department": "COMPUTER_SCIENCE",
+    "degreeSought": "MS_C"
+  }
+]

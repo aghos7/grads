@@ -1,0 +1,85 @@
+[
+   {
+      "student":{
+         "id":"nguy0621",
+         "firstName":"Luan",
+         "lastName":"Nguyen"
+      },
+    "program": "COMPUTER_SCIENCE",
+    "degreeSought": "PHD",
+    "termBegan": {
+	"semester": "SPRING",
+	"year": 2008
+    },
+    "advisors": [
+
+      {
+
+        "department": "COMPUTER_SCIENCE",
+
+        "firstName": "William",
+
+        "lastName": "Schuler"
+
+      }
+
+    ],
+      "requirementCheckResults":[
+         {
+            "name":"DEGREE_SOUGHT",
+            "passed":true,
+            "details": {
+		"other": ["phD"]
+		}
+         },
+         {
+            "name":"BREADTH_REQUIREMENT_PHD",
+            "passed":true,
+            "details":{
+               "gpa":3.667,
+               "courses":[
+                  {
+                     "course":{
+                        "name":"Advanced Algorithms \u0026 Data Structures",
+                        "id":"csci5421",
+                        "numCredits":3,
+                        "courseArea":"THEORY_ALGORITHMS"
+                     },
+                     "term":{
+                        "semester":"SPRING",
+                        "year":2008
+                     },
+                     "grade":"A"
+                  },
+                  {
+                     "course":{
+                        "name":"Operating System",
+                        "id":"csci5103",
+                        "numCredits":3,
+                        "courseArea":"ARCHITECTURE_SYSTEMS_SOFTWARE"
+                     },
+                     "term":{
+                        "semester":"SUMMER",
+                        "year":2008
+                     },
+                     "grade":"B"
+                  },
+                  {
+                     "course":{
+                        "name":"Artificial Intelligence II",
+                        "id":"csci5512",
+                        "numCredits":3,
+                        "courseArea":"APPLICATIONS"
+                     },
+                     "term":{
+                        "semester":"SPRING",
+                        "year":2010
+                     },
+                     "grade":"A"
+                  }
+               ]
+            }
+         }
+      ]
+   }
+]
